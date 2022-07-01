@@ -1,11 +1,12 @@
 @import '../utils/variables';
 
 #dark {
-    background-color: #000;
-    
+    background-color: $dark-used-background;
+
     .container {
-        background-color: #000;
+        background-color: $dark-used-background;
     }
+
     .form {
         background-color: $light-default-black;
     }
@@ -40,11 +41,11 @@
                 #FFFFFF  51%,
                 #ECE9E6  100%
             );
-            color: $light-default-black;            
-          }
-
-          .btn:hover {
             color: $light-default-black;
+            
+            &:hover {
+                color: $light-default-black;
+            }
           }
     }
 }

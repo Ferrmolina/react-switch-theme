@@ -1,7 +1,8 @@
 @import '../utils/variables';
 
 #light {
-    background-color: lightblue;
+    background-color: $light-used-background;
+
     h1 {
         color: $light-title-color;
     }
@@ -23,7 +24,7 @@
     }
 
     .submit {
-        button {
+        .btn {
             background-image: linear-gradient(
                 to right, 
                 #FF512F 0%,
