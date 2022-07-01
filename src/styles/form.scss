@@ -1,0 +1,55 @@
+@import './form/light';
+@import './form/dark';
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.inputs {
+    fieldset {
+        legend {
+            font-size: .8em;
+            margin-bottom: 5px;
+        } 
+        input {
+            padding: 6px;
+            margin: 10px 0 25px;
+            border: 0;
+            border-bottom: 1px solid;
+            outline: none;
+            width: calc(100% - 15px);
+        }
+    }
+}
+
+.forgot-password {
+    font-size: .7em;
+    text-align: right;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.submit {
+    button {
+        margin: 35px 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        border-radius: 60px;
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        border: 0;
+
+        &:hover {
+            cursor: pointer;
+            background-position: top center;
+            text-decoration: none;
+        }
+    }
+}

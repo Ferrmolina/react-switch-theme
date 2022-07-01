@@ -1,0 +1,50 @@
+@import '../utils/variables';
+
+#dark {
+    background-color: #000;
+    
+    .container {
+        background-color: #000;
+    }
+    .form {
+        background-color: $light-default-black;
+    }
+
+    h1 {
+        color: $dark-title-color;
+    }
+
+    fieldset {
+        legend {
+            color: $dark-default-black;
+        }
+        input {
+            background-color: transparent;
+            color: $dark-input-text-color;
+            border-bottom-color: $dark-input-text-color;
+        }
+    }
+
+    .forgot-password {
+        a {
+            color: $dark-title-color;
+
+        }
+    }
+    
+    .submit {
+        .btn {
+            background-image: linear-gradient(
+                to right,
+                #ECE9E6 0%,
+                #FFFFFF  51%,
+                #ECE9E6  100%
+            );
+            color: $light-default-black;            
+          }
+
+          .btn:hover {
+            color: $light-default-black;
+          }
+    }
+}
