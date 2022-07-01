@@ -1,3 +1,3 @@
-# react-switch-theme-sample
+# React switch theme
 
-Sample switch theme implemented with ReactSwitch using createContext
+Sample login page with switch theme color feature created with ReactSwitch using createContext
