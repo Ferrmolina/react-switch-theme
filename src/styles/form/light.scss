@@ -1,0 +1,39 @@
+@import '../utils/variables';
+
+#light {
+    background-color: lightblue;
+    h1 {
+        color: $light-title-color;
+    }
+
+    fieldset {
+        legend {
+            color: $light-default-black;
+        }
+        input {
+            color: $light-input-text-color;
+            border-bottom-color: $light-input-text-color;
+        }
+    }
+
+    .forgot-password {
+        a {
+            color: $light-default-black;
+        }
+    }
+
+    .submit {
+        button {
+            background-image: linear-gradient(
+                to right, 
+                #FF512F 0%,
+                #F09819  51%, 
+                #FF512F  100%
+            );
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
